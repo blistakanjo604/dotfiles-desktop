@@ -15,7 +15,6 @@
      {"HP Device Manager", "hp-toolbox", "///usr/share/hplip/data/images/128x128/hp_logo.png" },
      {"Image Optimizer", "com.github.gijsgoudzwaard.image-optimizer", "/usr/share/icons/hicolor/16x16/apps/com.github.gijsgoudzwaard.image-optimizer.svg" },
      {"Image Viewer", "gpicview ", "/usr/share/icons/hicolor/48x48/apps/gpicview.png" },
-     {"Kate", "kate -b ", "/usr/share/icons/hicolor/16x16/apps/kate.png" },
      {"Like Task Manager", "ltm"},
      {"Maps", "gapplication launch org.gnome.Maps "},
      {"PDF Tricks", "com.github.muriloventuroso.pdftricks", "/usr/share/icons/hicolor/128x128/apps/com.github.muriloventuroso.pdftricks.svg" },
@@ -25,6 +24,7 @@
      {"Screenshot", "xfce4-screenshooter", "/usr/share/icons/hicolor/16x16/apps/org.xfce.screenshooter.png" },
      {"Simplenote", "/opt/Simplenote/simplenote ", "/usr/share/icons/hicolor/16x16/apps/simplenote.png" },
      {"Solanum", "solanum"},
+     {"Text Editor", "xed ", "/usr/share/icons/gnome/16x16/apps/accessories-text-editor.png" },
      {"USB Image Writer", "mintstick -m iso"},
      {"USB Stick Formatter", "mintstick -m format"},
      {"Vim", "xterm -e vim ", "/usr/share/icons/hicolor/48x48/apps/gvim.png" },
@@ -180,7 +180,6 @@
      {"Qt4 QDbusViewer ", "qdbusviewer-qt4", "/usr/share/icons/hicolor/32x32/apps/qdbusviewer-qt4.png" },
      {"SASM", "sasm", "///usr/share/sasm/sasm.png" },
      {"Sublime Text", "subl ", "/usr/share/icons/hicolor/16x16/apps/sublime-text.png" },
-     {"UserFeedback Console", "UserFeedbackConsole", "/usr/share/icons/gnome/16x16/actions/search.png" },
      {"gsharp", "/usr/bin/gsharp"},
  }
 
@@ -261,7 +260,6 @@
      {"Hardware Locality lstopo", "lstopo"},
      {"Htop", "xterm -e htop", "/usr/share/pixmaps/htop.png" },
      {"KSysGuard", "ksysguard ", "/usr/share/icons/gnome/16x16/apps/utilities-system-monitor.png" },
-     {"Konsole", "konsole", "/usr/share/icons/gnome/16x16/apps/utilities-terminal.png" },
      {"Manage Printing", "/usr/bin/xdg-open http://localhost:631/", "/usr/share/icons/hicolor/16x16/apps/cups.png" },
      {"OpenJDK Java 11 Console", "/usr/lib/jvm/java-11-openjdk/bin/jconsole", "/usr/share/icons/hicolor/16x16/apps/java11-openjdk.png" },
      {"OpenJDK Java 11 Shell", "xterm -e /usr/lib/jvm/java-11-openjdk/bin/jshell", "/usr/share/icons/hicolor/16x16/apps/java11-openjdk.png" },

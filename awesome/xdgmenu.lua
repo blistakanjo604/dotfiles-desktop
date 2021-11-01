@@ -199,7 +199,6 @@
      {"Celluloid", "celluloid "},
      {"Cheese", "cheese"},
      {"Clapper", "com.github.rafostar.Clapper "},
-     {"ClipGrab", "sh -c 'QT_STYLE_OVERRIDE=Adwaita clipgrab'", "///usr/share/pixmaps/clipgrab.png" },
      {"CycleShifter", "/usr/bin/CycleShifter"},
      {"Echomixer", "echomixer", "/usr/share/icons/hicolor/48x48/apps/echomixer.png" },
      {"Envy24 Control", "envy24control", "/usr/share/icons/hicolor/48x48/apps/envy24control.png" },

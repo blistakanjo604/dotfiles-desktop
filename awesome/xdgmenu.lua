@@ -1,3 +1,7 @@
+ local menue0e4fc6213e8b3593495a7260c3a4c2e = {
+     {"Onboard", "onboard", "/usr/share/icons/hicolor/16x16/apps/onboard.png" },
+ }
+
  local menu98edb85b00d9527ad5acebe451b3fae6 = {
      {"Archive Manager", "file-roller "},
      {"Atom", "env ATOM_DISABLE_SHELLING_OUT_FOR_ENVIRONMENT=false /usr/bin/atom ", "/usr/share/icons/hicolor/16x16/apps/atom.png" },
@@ -17,6 +21,7 @@
      {"Image Viewer", "gpicview ", "/usr/share/icons/hicolor/48x48/apps/gpicview.png" },
      {"Like Task Manager", "ltm"},
      {"Maps", "gapplication launch org.gnome.Maps "},
+     {"Onboard", "onboard", "/usr/share/icons/hicolor/16x16/apps/onboard.png" },
      {"PDF Tricks", "com.github.muriloventuroso.pdftricks", "/usr/share/icons/hicolor/128x128/apps/com.github.muriloventuroso.pdftricks.svg" },
      {"Passwords and Keys", "seahorse"},
      {"Piper", "piper"},
@@ -25,6 +30,7 @@
      {"Simplenote", "/opt/Simplenote/simplenote ", "/usr/share/icons/hicolor/16x16/apps/simplenote.png" },
      {"Solanum", "solanum"},
      {"Text Editor", "xed ", "/usr/share/icons/gnome/16x16/apps/accessories-text-editor.png" },
+     {"To Do", "gnome-todo"},
      {"USB Image Writer", "mintstick -m iso"},
      {"USB Stick Formatter", "mintstick -m format"},
      {"Vim", "xterm -e vim ", "/usr/share/icons/hicolor/48x48/apps/gvim.png" },
@@ -108,6 +114,7 @@
      {"Trello", "trello --force-device-scale-factor=1 --disable-gpu-driver-bug-workarounds --use-gl=desktop --ignore-gpu-blocklist --enable-gpu-rasterization --enable-zero-copy --enable-features=VaapiVideoDecoder --disable-features=UseOzonePlatform", "/usr/share/pixmaps/trello.png" },
      {"VMware Horizon Client", "sh -c 'GTK_THEME=Adwaita vmware-view '", "/usr/share/icons/hicolor/16x16/apps/vmware-horizon.png" },
      {"Viber", "viber ", "/usr/share/icons/hicolor/16x16/apps/viber.png" },
+     {"What IP", "/usr/bin/whatip "},
      {"Zoom", "/usr/bin/zoom ", "/usr/share/pixmaps/Zoom.png" },
  }
 
@@ -283,6 +290,7 @@
  }
 
 xdgmenu = {
+    {"Accessibility", menue0e4fc6213e8b3593495a7260c3a4c2e},
     {"Accessories", menu98edb85b00d9527ad5acebe451b3fae6},
     {"Archlinux", menu78059f1898ed518c6ccd6a6392fa82c1},
     {"Education", menude7a22a0c94aa64ba2449e520aa20c99},

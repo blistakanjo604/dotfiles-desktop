@@ -29,7 +29,7 @@
      {"Screenshot", "xfce4-screenshooter", "/usr/share/icons/hicolor/16x16/apps/org.xfce.screenshooter.png" },
      {"Simplenote", "/opt/Simplenote/simplenote ", "/usr/share/icons/hicolor/16x16/apps/simplenote.png" },
      {"Solanum", "solanum"},
-     {"Text Editor", "xed ", "/usr/share/icons/gnome/16x16/apps/accessories-text-editor.png" },
+     {"Text Editor", "gedit "},
      {"To Do", "gnome-todo"},
      {"USB Image Writer", "mintstick -m iso"},
      {"USB Stick Formatter", "mintstick -m format"},
@@ -130,6 +130,7 @@
      {"LibreOffice Math", "libreoffice --math ", "/usr/share/icons/hicolor/16x16/apps/libreoffice-math.png" },
      {"LibreOffice Writer", "libreoffice --writer ", "/usr/share/icons/hicolor/16x16/apps/libreoffice-writer.png" },
      {"Okular", "okular ", "/usr/share/icons/hicolor/16x16/apps/okular.png" },
+     {"ReText", "/usr/bin/retext ", "/usr/share/icons/hicolor/16x16/apps/retext.png" },
      {"qpdfview", "qpdfview --unique "},
  }
 

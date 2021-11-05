@@ -34,6 +34,7 @@
      {"USB Image Writer", "mintstick -m iso"},
      {"USB Stick Formatter", "mintstick -m format"},
      {"Vim", "xterm -e vim ", "/usr/share/icons/hicolor/48x48/apps/gvim.png" },
+     {"Visual Studio Code", "/opt/visual-studio-code/code --no-sandbox --unity-launch ", "/usr/share/icons/visual-studio-code.png" },
      {"Winetricks", "winetricks --gui"},
      {"balenaEtcher", "/opt/balenaEtcher/balena-etcher-electron ", "/usr/share/icons/hicolor/16x16/apps/balena-etcher-electron.png" },
      {"nitrogen", "nitrogen", "/usr/share/icons/hicolor/16x16/apps/nitrogen.png" },
@@ -188,6 +189,7 @@
      {"Qt4 QDbusViewer ", "qdbusviewer-qt4", "/usr/share/icons/hicolor/32x32/apps/qdbusviewer-qt4.png" },
      {"SASM", "sasm", "///usr/share/sasm/sasm.png" },
      {"Sublime Text", "subl ", "/usr/share/icons/hicolor/16x16/apps/sublime-text.png" },
+     {"Visual Studio Code", "/opt/visual-studio-code/code --no-sandbox --unity-launch ", "/usr/share/icons/visual-studio-code.png" },
      {"gsharp", "/usr/bin/gsharp"},
  }
 

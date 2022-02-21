@@ -4,7 +4,6 @@
 
  local menu98edb85b00d9527ad5acebe451b3fae6 = {
      {"Archive Manager", "file-roller "},
-     {"Atom", "env ATOM_DISABLE_SHELLING_OUT_FOR_ENVIRONMENT=false /usr/bin/atom "},
      {"Azure Data Studio", "/opt/azuredatastudio/bin/azuredatastudio --no-sandbox --unity-launch ", "/usr/share/icons/azuredatastudio.png" },
      {"BlueProximity", "start_proximity.sh", "/usr/share/pixmaps/blueproximity.xpm" },
      {"Calculator", "gnome-calculator"},
@@ -35,7 +34,7 @@
      {"USB Image Writer", "mintstick -m iso"},
      {"USB Stick Formatter", "mintstick -m format"},
      {"Vim", "xterm -e vim ", "/usr/share/icons/hicolor/48x48/apps/gvim.png" },
-     {"Visual Studio Code", "/opt/visual-studio-code/code --no-sandbox --unity-launch ", "/usr/share/icons/visual-studio-code.png" },
+     {"Visual Studio Code", "/usr/bin/code --no-sandbox --unity-launch ", "/usr/share/icons/visual-studio-code.png" },
      {"Winetricks", "winetricks --gui"},
      {"nitrogen", "nitrogen", "/usr/share/icons/hicolor/16x16/apps/nitrogen.png" },
      {"picom", "picom"},
@@ -67,7 +66,7 @@
  local menud334dfcea59127bedfcdbe0a3ee7f494 = {
      {"Agave", "agave", "/usr/share/icons/hicolor/16x16/apps/agave.png" },
      {"Blender", "blender "},
-     {"Boxy SVG", "env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/boxy-svg_boxy-svg.desktop /var/lib/snapd/snap/bin/boxy-svg ", "///var/lib/snapd/snap/boxy-svg/78/meta/gui/boxy-svg.svg" },
+     {"Boxy SVG", "env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/boxy-svg_boxy-svg.desktop /var/lib/snapd/snap/bin/boxy-svg ", "///var/lib/snapd/snap/boxy-svg/81/meta/gui/boxy-svg.svg" },
      {"Darktable", "/usr/bin/darktable ", "/usr/share/icons/hicolor/16x16/apps/darktable.png" },
      {"Document Scanner", "simple-scan"},
      {"Document Viewer", "evince "},
@@ -107,7 +106,7 @@
      {"Microsoft Teams - Preview", "teams ", "/usr/share/pixmaps/teams.png" },
      {"Mullvad VPN", "\"/opt/Mullvad VPN/mullvad-vpn\" ", "/usr/share/icons/hicolor/16x16/apps/mullvad-vpn.png" },
      {"Open on connected device via KDE Connect", "kdeconnect-handler --open "},
-     {"Prospect Mail", "\"/opt/Prospect Mail/prospect-mail\" --force-device-scale-factor=1 --disable-gpu-driver-bug-workarounds --disable-gpu-vsync --use-gl=desktop --ignore-gpu-blocklist --enable-gpu-rasterization --enable-zero-copy --disable-features=UseOzonePlatform --enable-features=VaapiVideoDecoder,WebUIDarkMode --force-dark-mode ", "/usr/share/icons/hicolor/16x16/apps/prospect-mail.png" },
+     {"Prospect Mail", "\"/opt/Prospect Mail/prospect-mail\" "},
      {"Slack", "/usr/bin/slack -s ", "/usr/share/pixmaps/slack.png" },
      {"Steam (Native)", "/usr/bin/steam-native ", "/usr/share/icons/hicolor/16x16/apps/steam.png" },
      {"Steam (Runtime)", "/usr/bin/steam-runtime ", "/usr/share/icons/hicolor/16x16/apps/steam.png" },
@@ -136,7 +135,7 @@
      {"LibreOffice Math", "libreoffice --math ", "/usr/share/icons/hicolor/16x16/apps/libreoffice-math.png" },
      {"LibreOffice Writer", "libreoffice --writer ", "/usr/share/icons/hicolor/16x16/apps/libreoffice-writer.png" },
      {"Okular", "okular ", "/usr/share/icons/hicolor/16x16/apps/okular.png" },
-     {"Prospect Mail", "\"/opt/Prospect Mail/prospect-mail\" --force-device-scale-factor=1 --disable-gpu-driver-bug-workarounds --disable-gpu-vsync --use-gl=desktop --ignore-gpu-blocklist --enable-gpu-rasterization --enable-zero-copy --disable-features=UseOzonePlatform --enable-features=VaapiVideoDecoder,WebUIDarkMode --force-dark-mode ", "/usr/share/icons/hicolor/16x16/apps/prospect-mail.png" },
+     {"Prospect Mail", "\"/opt/Prospect Mail/prospect-mail\" "},
      {"ReText", "/usr/bin/retext ", "/usr/share/icons/hicolor/16x16/apps/retext.png" },
      {"qpdfview", "qpdfview --unique "},
  }
@@ -163,7 +162,6 @@
  local menue6f43c40ab1c07cd29e4e83e4ef6bf85 = {
      {"Android Studio", "android-studio ", "/usr/share/pixmaps/android-studio.png" },
      {"Arduino IDE", "arduino ", "/usr/share/icons/hicolor/16x16/apps/arduino.png" },
-     {"Atom", "env ATOM_DISABLE_SHELLING_OUT_FOR_ENVIRONMENT=false /usr/bin/atom "},
      {"Azure Data Studio", "/opt/azuredatastudio/bin/azuredatastudio --no-sandbox --unity-launch ", "/usr/share/icons/azuredatastudio.png" },
      {"Bluefish Editor", "bluefish ", "/usr/share/icons/hicolor/16x16/apps/bluefish.png" },
      {"Boxes", "gnome-boxes "},
@@ -174,6 +172,7 @@
      {"Electron", "electron ", "/usr/share/pixmaps/electron.png" },
      {"Electron 11", "electron11 ", "/usr/share/pixmaps/electron11.png" },
      {"Electron 12", "electron12 ", "/usr/share/pixmaps/electron12.png" },
+     {"Electron 15", "electron15 ", "/usr/share/pixmaps/electron15.png" },
      {"Electron 9", "electron9 ", "/usr/share/pixmaps/electron9.png" },
      {"FLUID", "fluid ", "/usr/share/icons/hicolor/32x32/apps/fluid.png" },
      {"Geany", "geany ", "/usr/share/icons/hicolor/16x16/apps/geany.png" },
@@ -197,7 +196,7 @@
      {"Qt4 QDbusViewer ", "qdbusviewer-qt4", "/usr/share/icons/hicolor/32x32/apps/qdbusviewer-qt4.png" },
      {"SASM", "sasm", "///usr/share/sasm/sasm.png" },
      {"Sublime Text", "subl ", "/usr/share/icons/hicolor/16x16/apps/sublime-text.png" },
-     {"Visual Studio Code", "/opt/visual-studio-code/code --no-sandbox --unity-launch ", "/usr/share/icons/visual-studio-code.png" },
+     {"Visual Studio Code", "/usr/bin/code --no-sandbox --unity-launch ", "/usr/share/icons/visual-studio-code.png" },
      {"gsharp", "/usr/bin/gsharp"},
  }
 

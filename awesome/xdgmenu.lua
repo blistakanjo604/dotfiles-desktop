@@ -109,6 +109,7 @@
      {"KDE Connect Indicator", "kdeconnect-indicator"},
      {"KDE Connect SMS", "kdeconnect-sms"},
      {"LanXchange", "lxcr", "/usr/share/pixmaps/lanxchange.png" },
+     {"Links", "xlinks -g", "/usr/share/pixmaps/links-48x48.xpm" },
      {"Microsoft Teams - Preview", "teams ", "/usr/share/pixmaps/teams.png" },
      {"Mullvad VPN", "\"/opt/Mullvad VPN/mullvad-vpn\" ", "/usr/share/icons/hicolor/16x16/apps/mullvad-vpn.png" },
      {"Open on connected device via KDE Connect", "kdeconnect-handler --open "},
@@ -132,6 +133,7 @@
  }
 
  local menudf814135652a5a308fea15bff37ea284 = {
+     {"AbiWord", "abiword ", "/usr/share/icons/hicolor/16x16/apps/abiword.png" },
      {"Calendar", "gnome-calendar "},
      {"Document Viewer", "evince "},
      {"Evolution", "evolution "},
@@ -271,6 +273,7 @@
      {"Alacritty", "alacritty", "/usr/share/pixmaps/Alacritty.png" },
      {"Android File Transfer (MTP)", "android-file-transfer"},
      {"Avahi Zeroconf Browser", "/usr/bin/avahi-discover", "/usr/share/icons/gnome/16x16/devices/network-wired.png" },
+     {"Black Box", "blackbox"},
      {"Boxes", "gnome-boxes "},
      {"Bulk Rename", "thunar --bulk-rename ", "/usr/share/icons/hicolor/16x16/apps/org.xfce.thunar.png" },
      {"CPU-X", "cpu-x", "/usr/share/icons/hicolor/16x16/apps/cpu-x.png" },
